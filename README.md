@@ -1,4 +1,4 @@
-# Website Summarizer
+# Youtube Video Summarizer
 
 A small, end-to-end pipeline that:
 
