@@ -22,6 +22,7 @@ The repo also includes a small website scraping utility (`scraper.py`) for fetch
 
 - `yt_summarize.py`: download audio, transcribe, and create chapters
 - `gpt_yt_summarizer.py`: summarize `artifacts/transcript.txt` with OpenAI
+- `main.py`: run the full pipeline (download, transcribe, summarize)
 - `scraper.py`: fetch website text and links
 - `artifacts/`: generated outputs
 - `summarizer.ipynb`: notebook exploration
@@ -92,6 +93,12 @@ The summary includes:
 - Notable details (optional)
 - Action items / next steps (if any)
 - Open questions (if any)
+
+### One-command pipeline
+
+```bash
+uv run python main.py "https://www.youtube.com/watch?v=VIDEO_ID"
+```
 
 ## Website Utilities
 
